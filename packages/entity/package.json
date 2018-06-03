@@ -1,0 +1,21 @@
+{
+  "name": "@xene/entity",
+  "version": "0.0.1",
+  "description": "Xene nlp powered entity analyzer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dempfi/xene",
+  "author": "Ike Ku <dempfi@yahoo.com>",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "compromise": "^11.5.3"
+  }
+}

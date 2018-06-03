@@ -1,0 +1,27 @@
+{
+  "name": "@xene/intents",
+  "version": "0.0.1",
+  "description": "Xene artificial intelligence powered intent analyzer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dempfi/xene",
+  "author": "Ike Ku <dempfi@yahoo.com>",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/natural": "^0.2.33",
+    "@types/synaptic": "^1.0.3"
+  },
+  "dependencies": {
+    "compromise": "^11.5.3",
+    "natural": "^0.5.6",
+    "synaptic": "^1.1.4",
+    "wink-porter2-stemmer": "^1.0.8"
+  }
+}

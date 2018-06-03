@@ -23,7 +23,7 @@ export class RTM extends APIModule {
   private inc: number = 1
   private ws: WebSocket
   private ee = new EventEmitter()
-  private pingTimer: NodeJS.Timer
+  private pingTimer: number
   private lastPong = 0
 
   protected get token() {
